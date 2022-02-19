@@ -1,0 +1,107 @@
+body{
+
+	font-family: sans-serif;
+	background-color:#252529;
+	margin: 0;
+	color:#ffffff;
+	line-height:1.6;}
+a
+{ text-decoration: none;
+	color:#cccccc;}
+#header
+{
+	margin: 0;
+	padding: 0;
+	background-image:url(img/img.jpg) ;
+	background-position: center;
+ background-size:cover ; 
+ background-repeat:no-repeat;
+ width:100%;
+ height:100vh;/*view port*/  
+
+ /*it avoid space of top and other side it fit to screen*/
+} 
+#header .container
+{
+margin-top:25vh;
+
+}
+
+ h1{
+font-size:4rem;
+margin-bottom: 0;
+}
+
+h3{
+font-size:2rem;
+
+}
+nav{
+
+	height:40px;
+	width:100%;
+	background-color:#252529;
+	color: rgb(51, 34, 34);
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+
+
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+		display: inline-block;
+		width:100px;
+		text-align: center;
+		text-decoration: none;
+		padding:10px 0; 
+		color: #eeeeee;
+	}
+nav li:hover{
+background-color:#444;
+}
+.container{
+
+	max-width:1180px;
+	text-align: center;
+	margin: auto;
+}
+ .paragraph{
+ 	font-size:1.3rem ;/*root element font size*/
+}
+
+.footer{
+	display: grid;
+	grid-gap:20px;
+	grid-template-columns: repeat(4, 1fr);
+
+padding:2 rem;
+text-align: left;
+font-size:14px;
+}
+
+.footer ul{
+
+	list-style: none;
+}
+.footer ul li:first-child{
+
+	font-size: 1.2rem;
+	padding-bottom:0.5rem;
+	border-bottom:#444 solid 1px;
+	margin-bottom:1px ;
+}
+
+
+
+
+ .footerbottom
+ { 
+background-color: #333;
+ 	text-align: center;
+ }
